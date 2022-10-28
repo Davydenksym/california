@@ -203,14 +203,15 @@ h6 {
     gap: 0.9375rem;
   }
 }
-.menu__link span {
-  font-size: 0.4125rem;
-}
 .menu__link--spoiler {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
+  position: relative;
   cursor: pointer;
+}
+.menu__link span {
+  position: absolute;
+  top: 40%;
+  right: -0.869375rem;
+  font-size: 0.4125rem;
 }
 
 .link-underline {
