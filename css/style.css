@@ -204,13 +204,12 @@ h6 {
   }
 }
 .menu__link--spoiler {
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
   cursor: pointer;
 }
-.menu__link span {
-  position: absolute;
-  top: 40%;
-  right: -0.869375rem;
+.menu__spoiler {
   font-size: 0.4125rem;
 }
 
