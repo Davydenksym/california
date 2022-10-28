@@ -360,7 +360,7 @@ h6 {
   transition: all 0.8s ease 0s;
 }
 .button:hover {
-  transform: scale(1.2);
+  transform: scale(0.8);
   background-color: #000;
   color: #dce5e2;
 }
@@ -368,7 +368,6 @@ h6 {
   border: 0.0625rem solid #c5c5c5;
 }
 .button--grey:hover {
-  transform: scale(0.8);
   background-color: #c5c5c5;
   color: #000;
 }
